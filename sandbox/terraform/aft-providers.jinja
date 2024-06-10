@@ -28,7 +28,7 @@ provider "aws" {
 # Custom provider for 'eu-central-2' region
 provider "aws" {
   alias  = "eu_central_2"
-  region = "eu_central_2"
+  region = "eu-central_2"
   assume_role {
     role_arn    = "{{ target_admin_role_arn }}"
   }
