@@ -1,7 +1,6 @@
 data "aws_caller_identity" "current" {}
 resource "aws_s3_bucket" "sandbox_bucket" {
   bucket = "aft-sandbox-gfdgdfgfdgfdgdfgfdgfd"
-  provider = aws.us_east_2
 }
 resource "aws_ec2_transit_gateway" "AFTtransitgateway4" {
   provider = aws.us_east_2
