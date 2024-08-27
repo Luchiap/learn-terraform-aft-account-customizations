@@ -6,3 +6,6 @@ resource "aws_s3_bucket" "sandbox_bucket" {
 resource "aws_ec2_transit_gateway" "sandbox_transitgateway" {
   description = "Example Transit Gateway"
 }
+resource "aws_ec2_transit_gateway" "sandbox_transitgatewayyy" {
+  description = "Example Transit Gatewayyy"
+}
